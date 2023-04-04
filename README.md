@@ -11,7 +11,8 @@ Confusion Matrix of Naive Bayes Model and LSTM Model:
 Accuracy of LSTM Model for Real-world Data:
 <img width="570" alt="Accuracy of LSTM Model for Real-world Data" src="https://user-images.githubusercontent.com/89174034/220716839-1c88967b-7f4d-45e2-9a51-d8ab964cf502.png">
 
-## Full Report ([Link](https://github.com/JennyShen056/NLP-Stock-Price-Trend-Prediction/blob/main/40_docs/703%20Final%20Project%20Report.pdf)))
+
+## Full Report ([Link](https://github.com/JennyShen056/NLP-Stock-Price-Trend-Prediction/blob/main/40_docs/703%20Final%20Project%20Report.pdf))
 
 ### References
 C.D. Manning, P. Raghavan and H. Schuetze (2008). Introduction to Information Retrieval. Cambridge University Press, pp. 234-265. Retrieved Dec 11, 2022, from https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html
