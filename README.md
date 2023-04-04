@@ -7,12 +7,14 @@ The movement in the stock market is affected by lots of factors including inflat
 For this project, we trained both the Naive Bayes model (the generative probabilistic model) and the LSTM model (the discriminative neural network) to perform sentiment analysis to predict stock market movement using the daily news headlines dataset. These two approaches are applied to both the real-world data and the synthetic data generated from the Naive Bayes model. In conclusion, in both “real” data and synthetic data cases, our Naive Bayes model performs better than the LSTM model in terms of higher model accuracy and lower model complexity in terms of time and space.
 
 ## Result
-Confusion Matrix of Naive Bayes Model and LSTM Model:
+Confusion Matrix of Naive Bayes Model and LSTM Model for Real-world Data:
 <img width="817" alt="Confusion Matrix of Naive Bayes Model and LSTM Model for Real-world Data" src="https://user-images.githubusercontent.com/89174034/220716578-d9a72823-6e71-44b3-8df7-7072f6abcf88.png">
 
 
 Accuracy of LSTM Model for Real-world Data:
 <img width="570" alt="Accuracy of LSTM Model for Real-world Data" src="https://user-images.githubusercontent.com/89174034/220716839-1c88967b-7f4d-45e2-9a51-d8ab964cf502.png">
+
+The low validation accuracy of the LSTM model could be adjusted by the small size of training data (with only 1989 entries). Moreover, the newsheadlines were collected from the news all over the world, while only DJIA Adj Close Value only reflects the stock market index in the US.
 
 ## Full Report ([Link](https://github.com/JennyShen056/NLP-Stock-Price-Trend-Prediction/blob/main/40_docs/703%20Final%20Project%20Report.pdf))
 
